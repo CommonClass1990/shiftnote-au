@@ -6,6 +6,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { InstallPwaPrompt } from "@/components/InstallPwaPrompt";
 import {
   Mic,
   Square,
@@ -272,6 +273,7 @@ export default function DashboardPage() {
           </div>
 
           <div className="flex items-center gap-2">
+            <InstallPwaPrompt />
             <Link
               href="/demo"
               className="glass rounded-full px-3 py-1.5 text-xs font-semibold text-teal-300 hover:text-white transition-all inline-flex items-center gap-1.5"

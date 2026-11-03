@@ -157,3 +157,4 @@ After deployment, test the following endpoints to ensure all systems are live:
 - [ ] **Voice-to-Claim Extraction**: Test simulated note or microphone recording (Returns structured case notes).
 - [ ] **Tax Invoice PDF**: Tap "Download Tax Invoice PDF" (Generates valid A4 PDF).
 - [ ] **PWA Manifest & Icons**: Check `https://your-domain.com/manifest.json` and `/icon-192.png`.
+

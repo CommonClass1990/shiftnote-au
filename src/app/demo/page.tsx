@@ -30,6 +30,7 @@ import {
 } from "lucide-react";
 import { NDIS_CATALOGUE, formatInvoiceReference, formatPlanManagerLineDescription } from "@/lib/ndis-catalogue";
 import { DEMO_PARTICIPANTS, DEMO_WORKER_PROFILE } from "@/lib/demo-data";
+import { InstallPwaPrompt } from "@/components/InstallPwaPrompt";
 import type { ShiftAndClaim } from "@/lib/types";
 
 interface DemoScenario {
@@ -329,6 +330,7 @@ export default function DemoShowcasePage() {
         </div>
 
         <div className="flex flex-wrap items-center gap-3 pt-2">
+          <InstallPwaPrompt />
           <Link
             href="/dashboard"
             className="inline-flex items-center gap-2 rounded-2xl px-5 py-2.5 text-xs font-bold text-white shadow-lg transition-all hover:brightness-110 active:scale-95"
