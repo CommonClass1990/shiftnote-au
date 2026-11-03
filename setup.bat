@@ -59,3 +59,4 @@ set /p START_NOW="Would you like to launch ShiftNote AU now? (Y/N): "
 if /i "%START_NOW%"=="Y" (
     call run.bat
 )
+
