@@ -1,0 +1,38 @@
+{
+  "name": "shiftnote-au",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first PWA for Australian Independent NDIS Support Workers turning post-shift voice notes into NDIS-compliant clinical case notes and GST-free invoices.",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "demo": "node demo-runner.mjs",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/ndis-catalogue.test.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.48.1",
+    "lucide-react": "^0.474.0",
+    "next": "^15.1.6",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "resend": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.1.6",
+    "isomorphic-git": "^1.44.10",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
